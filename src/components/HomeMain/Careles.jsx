@@ -16,11 +16,11 @@ function Car() {
     <>
       <h1 style={{ textAlign: "center", color: "bl", backgroundColor: "white" }}>Example to setup your carousel in react</h1>
       <div className="Car">
-        <Carousel itemPosition={consts.START} itemsToShow={2}enableAutoPlay autoPlaySpeed={1500} >
-          <Item maxWidth="100%"><img src={require(`./2-img.jpg`)}/></Item>
+        <Carousel itemPosition={consts.START} itemsToShow={1}enableAutoPlay autoPlaySpeed={1500} >
+          <Item id="img1" maxWidth="100%"></Item>
           <Item maxWidth="100%"><img src={require(`./2-img.jpg`)}/></Item>
           <Item maxWidth="100%"><img src={require(`./test.png`)}/></Item>
-          <Item></Item> 
+          <Item><img src={require(`./2-img.jpg`)}/>   </Item> 
           <Item><img src={require(`./car.jpg`)}/></Item>  
           <Item>Four</Item>
           
