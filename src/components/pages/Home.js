@@ -4,6 +4,7 @@ import Cards from '../Cards';
 import HeroSection from '../HeroSection';
 import Footer from '../Footer';
 import Car from '../HomeMain/Careles'
+import Map from '../HomeMain/Map'
 
 function Home() {
   return (
@@ -11,6 +12,7 @@ function Home() {
       <HeroSection />
       <Cards/>
       <Car/>
+      <Map/>
       <Footer />
       
     </>

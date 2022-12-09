@@ -2,7 +2,7 @@ import React from "react";
 import Carousel, { consts } from 'react-elastic-carousel';
 import Item from "./item";
 import "./Carele.css";
-import car from './car.jpg'
+
 
 const breakPoints = [
   { width: 1, itemsToShow: 1, },
@@ -14,19 +14,19 @@ const breakPoints = [
 function Car() {
   return (
     <>
-      <h1 style={{ textAlign: "center", color: "bl", backgroundColor: "white" }}>Example to setup your carousel in react</h1>
+      <h1 style={{ textAlign: "center", color: "black", backgroundColor: "white" }}>Example to setup your carousel in react</h1>
       <div className="Car">
-        <Carousel itemPosition={consts.START} itemsToShow={1}enableAutoPlay autoPlaySpeed={1500} >
-          <Item id="img1" maxWidth="100%"></Item>
-          <Item maxWidth="100%"><img src={require(`./2-img.jpg`)}/></Item>
-          <Item maxWidth="100%"><img src={require(`./test.png`)}/></Item>
-          <Item><img src={require(`./2-img.jpg`)}/>   </Item> 
-          <Item><img src={require(`./car.jpg`)}/></Item>  
-          <Item>Four</Item>
+        <Carousel itemPosition={consts.START} itemsToShow={1}enableAutoPlay autoPlaySpeed={2000} >
+          <Item id="img1"></Item>
+          <Item id="img2"></Item>
+          <Item id="img3"></Item>
+          <Item id="img4"></Item> 
+          <Item id="img5"></Item>  
+          <Item id="img6"></Item>
           
         </Carousel>
       </div>
     </>
   );
 }
-export default Car;
+export default Car; 

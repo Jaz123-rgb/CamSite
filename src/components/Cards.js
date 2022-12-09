@@ -10,31 +10,37 @@ function Cards() {
         <div className='cards__wrapper'>
           <ul className='cards__items'>
             <CardItem
-              src='images/2-img.jpg'
-              text='Explore the hidden waterfall deep inside the Amazon Jungle'
-              label='Adventure'
+              src='images/Cardimg-1.png'
+              text='kit de camaras de 720p 1 microfono con cualquier kit que escogas'
+              label='OFERTA'
               path='/services'
             />
             <CardItem
-              src='images/2-img.jpg'
-              text='Travel through the Islands of Bali in a Private Cruise'
-              label='Luxury'
+              src='images/Cardimg-1.png'
+              text='kit de camaras de 720p 1 microfono con cualquier kit que escogas'
+              label='OFERTA'
               path='/services'
             />
           </ul>
           <ul className='cards__items'>
           <CardItem
-              src='images/2-img.jpg'
-              text='Travel through the Islands of Bali in a Private Cruise'
-              label='Luxury'
+              src='images/Cardimg-1.png'
+              text='kit de camaras de 720p 1 microfono con cualquier kit que escogas  Cruise'
+              label='OFERTA'
               path='/services'
             />
             <CardItem
-              src='images/2-img.jpg'
-              text='Travel through the Islands of Bali in a Private Cruise'
-              label='Luxury'
+              src='images/Cardimg-1.png'
+              text='kit de camaras de 720p 1 microfono con cualquier kit que escogas  Cruise'
+              label='OFERTA'
               path='/services'
             />  
+            <CardItem
+              src='images/Cardimg-1.png'
+              text='kit de camaras de 720p 1 microfono con cualquier kit que escogas  Cruise'
+              label='OFERTA'
+              path='/services'
+            /> 
           </ul>
         </div>
       </div>
