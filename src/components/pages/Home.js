@@ -3,14 +3,14 @@ import '../../App.css';
 import Cards from '../Cards';
 import HeroSection from '../HeroSection';
 import Footer from '../Footer';
-import Example from '../HomeMain/Careles'
+import Car from '../HomeMain/Careles'
 
 function Home() {
   return (
     <>
       <HeroSection />
       <Cards/>
-      <Example/>
+      <Car/>
       <Footer />
       
     </>
