@@ -14,7 +14,7 @@ const breakPoints = [
 function Car() {
   return (
     <>
-      <h1 style={{ textAlign: "center", color: "black", backgroundColor: "white" }}>Example to setup your carousel in react</h1>
+  
       <div className="Car">
         <Carousel itemPosition={consts.START} itemsToShow={1}enableAutoPlay autoPlaySpeed={2000} >
           <Item id="img1"></Item>
